@@ -110,3 +110,36 @@ footer .d-flex {
     display: flex;
     gap: 30px;
 }
+
+footer .menu-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0;
+}
+
+footer .social-list {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    text-transform: uppercase;
+    color: #0282f9;
+    font-size: 20px;
+}
+
+footer .social-list ul {
+    display: flex;
+    gap: 20px;
+}
+
+footer button {
+    all: unset;
+    padding: 15px;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 600;
+    border: 3px solid #0282f9;
+    cursor: pointer;
+
+}
