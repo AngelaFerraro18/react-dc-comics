@@ -47,8 +47,35 @@ header ul {
 
 /* main */
 
-main {
+main .black-div {
     background-color: #1c1c1c;
+    height: 130px;
+}
+
+/* BlueStrip */
+.icon-container {
+    background-color: #0282f9;
+}
+
+#blue-strip {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 50px 0;
+}
+
+#blue-strip li {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+    color: #fff;
+}
+
+#blue-strip li>img {
+    height: 55px;
+}
+
+#blue-strip .img-power-visa {
+    height: 35px;
 }
 
 /* footer */
