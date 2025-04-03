@@ -6,7 +6,7 @@ import digitalPowerVisa from "../assets/img/buy-dc-power-visa.svg";
 
 //creo la funzione che raggruppa la lista di icone
 function BlueStrip() {
-    return (<ul>
+    return (<ul className="container">
         <li><img src={digitalComics} alt="digital-comics" />Digital Comics</li>
         <li><img src={digitalMerchandise} alt="merchandise" />DC Merchandise</li>
         <li><img src={digitalShop} alt="shop" />Subscriptions</li>

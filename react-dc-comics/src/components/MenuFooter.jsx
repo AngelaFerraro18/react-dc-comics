@@ -1,6 +1,6 @@
 //creo la funzione per il menu del footer
 function MenuFooter() {
-    return (<ul>
+    return (<ul className="container">
         <h2>DC Comics</h2>
         <li>Characters</li>
         <li>Comics</li>

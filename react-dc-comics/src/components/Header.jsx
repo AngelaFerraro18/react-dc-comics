@@ -3,7 +3,7 @@ import Menu from "./Menu";
 
 //creo la funzione che mi identificherà l'header del documento
 function Header() {
-    return (<header>
+    return (<header className="container">
         <Logo />
         <Menu />
     </header>);

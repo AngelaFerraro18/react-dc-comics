@@ -12,8 +12,8 @@ function Footer() {
         <MenuFooter />
         <LogoBG />
         <button>Sign-up Now</button>
-        <h3>Follow Us</h3>
-        <ul>
+        <h3 className="container">Follow Us</h3>
+        <ul className="container">
             <li><img src={facebookIcon} alt="facebook-icon" /></li>
             <li><img src={twitterIcon} alt="twitter-icon" /></li>
             <li><img src={youtubeIcon} alt="youtube-icon" /></li>

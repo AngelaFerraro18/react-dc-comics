@@ -2,7 +2,7 @@ import BlueStrip from "./BlueStrip";
 
 //creo la funzione che mi identificherà il main del documento
 function Main() {
-    return (<main>
+    return (<main >
         <BlueStrip />
     </main>);
 };
