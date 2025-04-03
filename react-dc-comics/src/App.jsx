@@ -1,9 +1,17 @@
+//importo la funzione Footer
+import Footer from "./components/Footer";
+//importo la funzione Header
+import Header from "./components/Header";
+//importo la funzione Main
+import Main from "./components/Main";
 
 function App() {
 
   return (
     <>
-      Ciao sto usando React
+      <Header />
+      <Main />
+      <Footer />
     </>
   )
 }
