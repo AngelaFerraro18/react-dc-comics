@@ -1,6 +1,10 @@
+import BlueStrip from "./BlueStrip";
+
 //creo la funzione che mi identificherà il main del documento
 function Main() {
-    return (<main>Sono un main</main>);
+    return (<main>
+        <BlueStrip />
+    </main>);
 };
 
 //esporto la funzione Main
