@@ -1,12 +1,3 @@
-# React + Vite
+# React DC Comics
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+L'esercizio di oggi ci porta ad approcciare per la prima volta la libreria di React. Installato Vite, in modo da poter utilizzare React e visualizzare in tempo reale le modifiche che apportiamo al nostro file sul browser dovremo ricreare il layout fornito. Il layout fornito rappresenta un'idea di layout che riguarda una pagina internet sui fumetti DC, che verrà aggiornata una volta apprese ulteriori nozioni. Obiettivi di oggi: suddivisione in componenti e applicazione di css base per la riproduzione del layout.
