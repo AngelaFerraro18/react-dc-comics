@@ -79,7 +79,34 @@ main .black-div {
 }
 
 /* footer */
+footer .container-box-list {
+    background-image: url('../src/assets/img/footer-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 60px 0;
+}
+
+footer .menu-footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer h2 {
+    margin-bottom: 24px;
+    font-size: 25px;
+    color: #fff;
+}
+
+footer ul li {
+    line-height: 2;
+    color: #959595;
+}
 
 footer {
     background-color: #303030;
+}
+
+footer .d-flex {
+    display: flex;
+    gap: 30px;
 }

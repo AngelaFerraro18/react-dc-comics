@@ -1,4 +1,4 @@
-import LogoBG from "./LogoBG";
+
 import MenuFooter from "./MenuFooter";
 import facebookIcon from "../assets/img/footer-facebook.png";
 import twitterIcon from "../assets/img/footer-facebook.png";
@@ -10,7 +10,6 @@ import periscopeIcon from "../assets/img/footer-periscope.png";
 function Footer() {
     return (<footer>
         <MenuFooter />
-        <LogoBG />
         <button>Sign-up Now</button>
         <h3 className="container">Follow Us</h3>
         <ul className="container">
