@@ -1,6 +1,6 @@
 function List1(props) {
     return (
-        <ul>
+        <ul className="mb-24">
             <h2>{props.title}</h2>
             <li><a href={props.list[0].url}></a>{props.list[0].link}</li>
             <li><a href={props.list[1].url}></a>{props.list[1].link}</li>
@@ -15,34 +15,3 @@ function List1(props) {
 
 export default List1;
 
-// const list = [
-//     {
-//         link: 'Characters',
-//         url: '/'
-//     },
-//     {
-//         link: 'Comics',
-//         url: '/'
-//     },
-//     {
-//         link: 'Movies',
-//         url: '/'
-//     },
-//     {
-//         link: 'TV',
-//         url: '/'
-//     },
-//     {
-//         link: 'Games',
-//         url: '/'
-//     },
-//     {
-//         link: 'Videos',
-//         url: '/'
-//     },
-//     {
-//         link: 'News',
-//         url: '/'
-//     }
-
-// ]
