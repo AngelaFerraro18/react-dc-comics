@@ -10,17 +10,19 @@ import periscopeIcon from "../assets/img/footer-periscope.png";
 function Footer() {
     return (<footer>
         <MenuFooter />
-        <div className="container menu-bottom">
-            <button>Sign-up Now!</button>
-            <div className="social-list">
-                <h3>Follow Us</h3>
-                <ul>
-                    <li><img src={facebookIcon} alt="facebook-icon" /></li>
-                    <li><img src={twitterIcon} alt="twitter-icon" /></li>
-                    <li><img src={youtubeIcon} alt="youtube-icon" /></li>
-                    <li><img src={pinterestIcon} alt="pinterest-icon" /></li>
-                    <li><img src={periscopeIcon} alt="periscope-icon" /></li>
-                </ul>
+        <div className="footer-container">
+            <div className="container menu-bottom">
+                <button>Sign-up Now!</button>
+                <div className="social-list">
+                    <h3>Follow Us</h3>
+                    <ul>
+                        <li><img src={facebookIcon} alt="facebook-icon" /></li>
+                        <li><img src={twitterIcon} alt="twitter-icon" /></li>
+                        <li><img src={youtubeIcon} alt="youtube-icon" /></li>
+                        <li><img src={pinterestIcon} alt="pinterest-icon" /></li>
+                        <li><img src={periscopeIcon} alt="periscope-icon" /></li>
+                    </ul>
+                </div>
             </div>
         </div>
     </footer>);
