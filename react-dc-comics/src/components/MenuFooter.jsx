@@ -122,10 +122,10 @@ function MenuFooter() {
     return (<div className="container-box-list">
         <div className="menu-footer container">
             <div className="d-flex">
-                <List1 list={list} />
-                <List2 list={list2} />
-                <List3 list={list3} />
-                <List4 list={list4} />
+                <List1 title={"DC Comics"} list={list} />
+                <List2 title={"Shop"} list={list2} />
+                <List3 title={"DC"} list={list3} />
+                <List4 title={"Site"} list={list4} />
             </div>
             <LogoBG />
 
