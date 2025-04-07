@@ -1,5 +1,4 @@
 import ComicCard from "./comicCard";
-// import comics from "./comics";
 
 function CardList({ comicCards }) {
 

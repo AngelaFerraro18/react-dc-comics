@@ -1,16 +1,11 @@
-import comics from "./comics";
 
-function ComicCard() {
+function ComicCard({ comic }) {
 
-    return (
-        comics.map(comic => {
-            return (
-                <div>
-                    <img src={comic.thumb} />
-                    <p>{comic.series}</p>
-                </div>)
-        })
-    )
+    return (<div>
+        <img src={comic.thumb} />
+        <p>{comic.series}</p>
+    </div>)
+
 }
 
 export default ComicCard;
