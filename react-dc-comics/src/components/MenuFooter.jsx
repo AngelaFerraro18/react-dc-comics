@@ -1,5 +1,5 @@
 import LogoBG from "./LogoBG";
-import List1 from "./MenuFooter1";
+import ListDCComics from "./MenuListDcComics";
 import List2 from "./MenuFooter2";
 import List3 from "./MenuFooter3";
 import List4 from "./MenuFooter4";
@@ -9,30 +9,37 @@ function MenuFooter() {
 
     const list = [
         {
+            id: '1',
             link: 'Characters',
             url: '/'
         },
         {
+            id: '2',
             link: 'Comics',
             url: '/'
         },
         {
+            id: '3',
             link: 'Movies',
             url: '/'
         },
         {
+            id: '4',
             link: 'TV',
             url: '/'
         },
         {
+            id: '5',
             link: 'Games',
             url: '/'
         },
         {
+            id: '6',
             link: 'Videos',
             url: '/'
         },
         {
+            id: '7',
             link: 'News',
             url: '/'
         }
@@ -123,7 +130,8 @@ function MenuFooter() {
         <div className="menu-footer container">
             <div className="d-flex">
                 <div>
-                    <List1 title={"DC Comics"} list={list} />
+                    <h2>Dc Comics</h2>
+                    <ListDCComics list={list} />
                     <List2 title={"Shop"} list={list2} />
                 </div>
                 <List3 title={"DC"} list={list3} />
@@ -139,3 +147,4 @@ function MenuFooter() {
 
 //esporto
 export default MenuFooter;
+
