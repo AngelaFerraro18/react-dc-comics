@@ -78,7 +78,9 @@ main .comic-card {
 
 main .comic-card>p {
     text-transform: uppercase;
-    font-weight: bold;
+    font-weight: 500;
+    color: #fff;
+    font-size: 12px;
 }
 
 main .comic-img {
