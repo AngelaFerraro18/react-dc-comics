@@ -49,11 +49,13 @@ function Header() {
     ]
 
 
-    return (<header className="container">
-        <Logo />
+    return (<header >
+        <div className="container">
+            <Logo />
 
-        {/* ho impostato all'interno del mio componente l'attributo linkList e vi ho assegnato l'array che ho creato precedentemente */}
-        <Menu linkList={linkList} />
+            {/* ho impostato all'interno del mio componente l'attributo linkList e vi ho assegnato l'array che ho creato precedentemente */}
+            <Menu linkList={linkList} />
+        </div>
     </header>);
 };
 

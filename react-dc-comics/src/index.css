@@ -12,6 +12,7 @@ img {
 
 body {
     font-family: "Open Sans", sans-serif;
+    background-color: #1c1c1c;
 }
 
 .container {
@@ -26,9 +27,11 @@ ul {
 }
 
 /* header */
-
 header {
     background-color: #fff;
+}
+
+header div {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -73,11 +76,15 @@ main .comic-card {
     width: calc((100% - 150px) / 6);
 }
 
+main .comic-card>p {
+    text-transform: uppercase;
+    font-weight: bold;
+}
 
 main .comic-img {
     height: 186px;
     width: 186px;
-    /* object-fit: cover; */
+    margin-bottom: 20px;
 }
 
 main .comic-img img {
