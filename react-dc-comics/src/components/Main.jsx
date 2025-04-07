@@ -5,7 +5,9 @@ import comics from "./comics";
 //creo la funzione che mi identificherà il main del documento
 function Main() {
     return (<main >
-        <div className="black-div"></div>
+        <div className="black-div">
+            <div className="comics-label">Current Series</div>
+        </div>
         <CardList comicCards={comics} />
         <BlueStrip />
     </main>);
