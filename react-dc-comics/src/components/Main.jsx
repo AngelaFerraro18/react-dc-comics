@@ -1,4 +1,5 @@
 import BlueStrip from "./BlueStrip";
+import CardList from "./cardList";
 
 //creo la funzione che mi identificherà il main del documento
 function Main() {
@@ -6,6 +7,7 @@ function Main() {
         <div className="black-div">
             <p className="container">{'---> Content Goes Here! <---'}</p>
         </div>
+        <CardList />
         <BlueStrip />
     </main>);
 };
