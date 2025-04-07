@@ -8,7 +8,10 @@ function Main() {
         <div className="black-div">
             <div className="comics-label">Current Series</div>
         </div>
-        <CardList comicCards={comics} />
+        <div className="list-container">
+            <CardList comicCards={comics} />
+            <button className="btn-load-more">Load more</button>
+        </div>
         <BlueStrip />
     </main>);
 };

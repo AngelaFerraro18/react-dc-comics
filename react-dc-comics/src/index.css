@@ -58,6 +58,8 @@ header ul li {
 main .black-div {
     background-color: #1c1c1c;
     background-image: url('../src/assets/img/jumbotron.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
     height: 400px;
     margin-bottom: 55px;
     position: relative;
@@ -70,8 +72,7 @@ main .comics-list {
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
-    margin-bottom: 110px;
-
+    margin-bottom: 50px;
     flex-shrink: 1;
 }
 
@@ -112,9 +113,26 @@ main .comics-label {
     text-transform: uppercase;
     font-weight: bold;
 
+}
 
+main .list-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
-
+main .btn-load-more {
+    all: unset;
+    padding: 13px 30px;
+    background-color: #0282f9;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 15px;
+    width: 100px;
+    text-align: center;
+    margin-bottom: 20px;
+    cursor: pointer;
 }
 
 /* BlueStrip */
