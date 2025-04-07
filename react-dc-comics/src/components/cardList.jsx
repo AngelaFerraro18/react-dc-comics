@@ -1,10 +1,11 @@
 import ComicCard from "./comicCard";
-import comics from "./comics";
+// import comics from "./comics";
 
-function CardList() {
+function CardList({ comicCards }) {
 
     return (<div>
-        <ComicCard key={comics.id} />
+        {comicCards.map(comic => <ComicCard key={comic.id} comic={comic} />)}
+
     </div>)
 }
 
