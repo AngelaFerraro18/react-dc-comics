@@ -1,8 +1,8 @@
 import LogoBG from "./LogoBG";
 import ListDCComics from "./MenuListDcComics";
-import List2 from "./MenuFooter2";
-import List3 from "./MenuFooter3";
-import List4 from "./MenuFooter4";
+import ListShop from "./MenuShopList";
+import ListDC from "./MenuListDC";
+import ListSites from "./MenuSites";
 
 //creo la funzione per il menu del footer
 function MenuFooter() {
@@ -47,57 +47,69 @@ function MenuFooter() {
     ];
 
     const list2 = [{
-
+        id: '1',
         link: 'Shop DC',
         url: '/'
     },
     {
+        id: '2',
         link: 'Shop DC Collectibles',
         url: '/'
 
     }]
 
     const list3 = [{
+        id: '1',
         link: 'Term Of Use',
         url: '/'
     },
     {
+        id: '2',
         link: 'Privacy Policy(New)',
         url: '/'
     },
     {
+        id: '3',
         link: 'AD Choices',
         url: '/'
     },
     {
+        id: '4',
         link: 'Advertising',
         url: '/'
     },
     {
+        id: '5',
         link: 'Jobs',
         url: '/'
     },
     {
+        id: '6',
         link: 'Subscriptions',
         url: '/'
     },
     {
+        id: '7',
         link: 'Talent Workshops',
         url: '/'
     },
     {
+        id: '8',
         link: 'CPSC Certificates',
         url: '/'
     },
     {
+        id: '9',
         link: 'Rating',
         url: '/'
     },
     {
+        id: '10',
         link: 'Shop Help',
         url: '/'
     },
     {
+        id: '11',
         link: 'Contact Us',
         url: '/'
     }
@@ -105,22 +117,27 @@ function MenuFooter() {
 
     const list4 = [
         {
+            id: '1',
             link: 'DC',
             url: '/'
         },
         {
+            id: '2',
             link: 'MAD Magazine',
             url: '/'
         },
         {
+            id: '3',
             link: 'DC Kids',
             url: '/'
         },
         {
+            id: '4',
             link: 'DC Universe',
             url: '/'
         },
         {
+            id: '5',
             link: 'DC Power Visa',
             url: '/'
         }
@@ -132,10 +149,18 @@ function MenuFooter() {
                 <div>
                     <h2>Dc Comics</h2>
                     <ListDCComics list={list} />
-                    <List2 title={"Shop"} list={list2} />
+                    <h2>Shop</h2>
+                    <ListShop list={list2} />
                 </div>
-                <List3 title={"DC"} list={list3} />
-                <List4 title={"Site"} list={list4} />
+                <div>
+                    <h2>DC</h2>
+                    <ListDC list={list3} />
+                </div>
+                <div>
+                    <h2>Site</h2>
+                    <ListSites list={list4} />
+                </div>
+
             </div>
 
             <LogoBG />
