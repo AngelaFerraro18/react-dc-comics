@@ -1,8 +1,5 @@
 import LogoBG from "./LogoBG";
 import ListDCComics from "./MenuListDcComics";
-import ListShop from "./MenuShopList";
-import ListDC from "./MenuListDC";
-import ListSites from "./MenuSites";
 
 //creo la funzione per il menu del footer
 function MenuFooter() {
@@ -150,15 +147,15 @@ function MenuFooter() {
                     <h2>Dc Comics</h2>
                     <ListDCComics list={list} />
                     <h2>Shop</h2>
-                    <ListShop list={list2} />
+                    <ListDCComics list={list2} />
                 </div>
                 <div>
                     <h2>DC</h2>
-                    <ListDC list={list3} />
+                    <ListDCComics list={list3} />
                 </div>
                 <div>
                     <h2>Site</h2>
-                    <ListSites list={list4} />
+                    <ListDCComics list={list4} />
                 </div>
 
             </div>
